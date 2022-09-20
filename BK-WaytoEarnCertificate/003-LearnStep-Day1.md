@@ -1,7 +1,7 @@
 Action
-- Download the presentation desk from KodeKloud
-- Practise the kubernetes work on the terminal / via browser
-- Join the Slack Channel of Kode Kloud
+- [ ] Download the presentation desk from KodeKloud
+- [ ] Practise the kubernetes work on the terminal / via browser
+- [ ] Join the Slack Channel of Kode Kloud
 
 Learning Steps
 1. Cluster Architecture
