@@ -20,3 +20,6 @@ bcdedit /set hypervisorlaunchtype off
 
 Steps to configure the kubernetes proxy  from workstation and access the kubernetes dashboard
 https://devopscube.com/kubernetes-cluster-vagrant/
+
+Vagrantfile and Scripts to Automate Kubernetes Setup using Kubeadm [Practice Environment for CKA/CKAD and CKS Exams]
+https://github.com/techiescamp/vagrant-kubeadm-kubernetes
