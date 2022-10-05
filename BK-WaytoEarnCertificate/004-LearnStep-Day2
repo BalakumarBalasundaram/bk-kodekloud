@@ -17,3 +17,6 @@ Disable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V-All
 For Windows 11, you can use an elevated Powershell.
 
 bcdedit /set hypervisorlaunchtype off
+
+Steps to configure the kubernetes proxy  from workstation and access the kubernetes dashboard
+https://devopscube.com/kubernetes-cluster-vagrant/
