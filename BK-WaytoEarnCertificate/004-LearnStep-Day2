@@ -10,3 +10,10 @@ When I need to use Docker, I'll re-enable the feature:
 Enable-WindowsOptionalFeature -Online -FeatureName "VirtualMachinePlatform"
 
 Depending on your setup/Windows version, you may need to use DSIM.
+
+
+Disable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V-All
+
+For Windows 11, you can use an elevated Powershell.
+
+bcdedit /set hypervisorlaunchtype off
