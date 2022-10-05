@@ -1,0 +1,12 @@
+vagrant issues
+https://github.com/hashicorp/vagrant/issues/11987
+
+Workaround for now for me was to disable the VirtualMachinePlatform feature in windows by running:
+
+Disable-WindowsOptionalFeature -Online -FeatureName "VirtualMachinePlatform"
+
+When I need to use Docker, I'll re-enable the feature:
+
+Enable-WindowsOptionalFeature -Online -FeatureName "VirtualMachinePlatform"
+
+Depending on your setup/Windows version, you may need to use DSIM.
